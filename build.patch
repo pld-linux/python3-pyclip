@@ -1,0 +1,21 @@
+--- pyclip-0.7.0/setup.py~	2022-10-31 22:13:25.000000000 +0100
++++ pyclip-0.7.0/setup.py	2023-01-02 15:44:53.355804896 +0100
+@@ -4,17 +4,13 @@
+ test_requirements = ['pytest']
+ extras = {'test': test_requirements}
+ 
+-with open('docs/README.md', encoding='utf-8') as f:
+-    long_description = f.read()
+-
+-
+ setup(
+     name='pyclip',
+     version='0.7.0',
+     license='Apache',
+     url='https://github.com/spyoungtech/pyclip',
+     description='Cross-platform clipboard utilities supporting both binary and text data.',
+-    long_description=long_description,
++    long_description='Cross-platform clipboard utilities supporting both binary and text data.',
+     long_description_content_type="text/markdown",
+     author_email='spencer.young@spyoung.com',
+     author='Spencer Young',
