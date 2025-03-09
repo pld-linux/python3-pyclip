@@ -23,7 +23,7 @@ data.
 
 %prep
 %setup -q -n %{module}-%{version}
-%patch0 -p1
+%patch -P 0 -p1
 
 %build
 %py3_build
