@@ -2,7 +2,7 @@
 Summary:	Cross-platform clipboard utilities supporting both binary and text data
 Name:		python3-%{module}
 Version:	0.7.0
-Release:	1
+Release:	2
 License:	Apache v2.0
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/p/pyclip/%{module}-%{version}.tar.gz
